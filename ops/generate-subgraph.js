@@ -41,7 +41,7 @@ async function generateSubgraph () {
       },
       mapping: {
         kind: 'ethereum/events',
-        apiVersion: '0.0.1',
+        apiVersion: '0.0.2',
         language: 'wasm/assemblyscript',
         file: file,
         entities,
@@ -53,7 +53,7 @@ async function generateSubgraph () {
   })
 
   const subgraph = {
-    specVersion: '0.0.1',
+    specVersion: '0.0.2',
     schema: { file: './schema.graphql' },
     dataSources
   }

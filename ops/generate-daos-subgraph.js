@@ -16,7 +16,7 @@ function daoYaml (contract,contractAddress) {
       },
       mapping: {
         kind: 'ethereum/events',
-        apiVersion: '0.0.1',
+        apiVersion: '0.0.2',
         language: 'wasm/assemblyscript',
         file: `src/mappings/${contract}/mapping.ts`,
         entities,
@@ -31,9 +31,9 @@ function daoYaml (contract,contractAddress) {
  */
 async function generateSubgraph () {
   const dao = require(migrationFileLocation)[network].dao
-  if (dao !== undefined) {
-      fs.writeFileSync(daodir+'testdao.json', JSON.stringify(dao, undefined, 2), 'utf-8');
-  }
+  // if (dao !== undefined) {
+  //     fs.writeFileSync(daodir+'testdao.json', JSON.stringify(dao, undefined, 2), 'utf-8');
+  // }
   fs.readdir(daodir, function (err, files) {
     if (err) {
       console.error("Could not list the directory.", err);

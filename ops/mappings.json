@@ -181,12 +181,6 @@
     {
       "mappings": [
       {
-        "name": "GEN",
-        "contractName": "GEN",
-        "dao": "base",
-        "mapping": "DAOToken"
-      },
-      {
         "name": "Redeemer",
         "contractName": "Redeemer",
         "dao": "base",
@@ -235,16 +229,16 @@
         "mapping": "Avatar"
       },
       {
-        "name": "UController",
-        "contractName": "UController",
-        "dao": "base",
-        "mapping": "UController"
-      },
-      {
         "name": "DAORegistry",
         "contractName": "DAORegistry",
         "dao": "base",
         "mapping": "DAORegistry"
+      },
+      {
+        "name": "UController",
+        "contractName": "UController",
+        "dao": "base",
+        "mapping": "UController"
       }
     ]
   },

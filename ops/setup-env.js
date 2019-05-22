@@ -8,16 +8,16 @@ async function setupenv () {
   fs.writeFileSync(migrationFileLocation, JSON.stringify(migration, undefined, 2), 'utf-8')
   console.log(`Generating ABI files`)
   // node ops/generate-abis.js && node ops/generate-schema.js && node ops/generate-subgraph.js
-  await require(`../ops/generate-abis`)()
+  //await require(`../ops/generate-abis`)()
 
   console.log(`Generating schemas`)
   await require(`${subgraphRepo}/ops/generate-schema`)()
 
-  console.log(`Generating subgraph`)
-  await require(`../ops/generate-subgraph`)()
-
-  console.log(`Generating daos subgraph`)
-  await require(`../ops/generate-daos-subgraph`)()
+  // console.log(`Generating subgraph`)
+  // await require(`../ops/generate-subgraph`)()
+  //
+  // console.log(`Generating daos subgraph`)
+  // await require(`../ops/generate-daos-subgraph`)()
 
   const cwd = subgraphRepo
   console.log('Calling graph-codegen')
