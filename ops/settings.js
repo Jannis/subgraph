@@ -1,11 +1,11 @@
 const path = require('path')
 require('dotenv').config();
 
-const migrationFileLocation = require.resolve(`@daostack/migration/migration.json`)
-const network = process.env.network || 'private'
+const migrationFileLocation = require.resolve(`./migration.json`)
+const network = process.env.network || 'rinkeby'
 const graphNode = process.env.graph_node || 'http://127.0.0.1:8020/'
 const ipfsNode = process.env.ipfs_node || 'http://127.0.0.1:5001'
-const ethereumNode = process.env.ethereum_node || 'http://ganache:8545'
+const ethereumNode = process.env.ethereum_node || 'https://rinkeby.infura.io/v3/69b4a42f71a8446e8b167062e3d5e317"'
 const subgraphName = process.env.subgraph || 'daostack'
 const postgresPassword = process.env.postgres_password || 'letmein'
 
