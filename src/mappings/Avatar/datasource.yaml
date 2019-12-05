@@ -1,5 +1,14 @@
 entities:
   - AvatarContract
+  - Avatar
+  - ContributionReward
+  - Controller
+  - DAOToken
+  - GenericScheme
+  - GenesisProtocol
+  - Reputation
+  - SchemeRegistrar
+  - UGenericScheme
 eventHandlers:
   - event: SendEther(uint256,indexed address)
     handler: handleSendEth

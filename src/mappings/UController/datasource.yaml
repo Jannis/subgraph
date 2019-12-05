@@ -1,13 +1,14 @@
 abis:
   - UController
   - Avatar
-  - Reputation
-  - DAOToken
-  - SchemeRegistrar
   - ContributionReward
+  - Controller
+  - DAOToken
   - GenericScheme
-  - UGenericScheme
   - GenesisProtocol
+  - Reputation
+  - SchemeRegistrar
+  - UGenericScheme
 entities:
   - UControllerOrganization
   - ControllerScheme

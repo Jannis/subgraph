@@ -1,5 +1,13 @@
 abis:
   - Reputation
+  - Avatar
+  - ContributionReward
+  - Controller
+  - DAOToken
+  - GenericScheme
+  - GenesisProtocol
+  - SchemeRegistrar
+  - UGenericScheme
 entities:
   - ReputationContract
   - ReputationHolder

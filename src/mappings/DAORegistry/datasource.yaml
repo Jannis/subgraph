@@ -1,3 +1,14 @@
+abis:
+  - DAORegistry
+  - Avatar
+  - ContributionReward
+  - Controller
+  - DAOToken
+  - GenericScheme
+  - GenesisProtocol
+  - Reputation
+  - SchemeRegistrar
+  - UGenericScheme
 entities:
   - Dummy
 eventHandlers:

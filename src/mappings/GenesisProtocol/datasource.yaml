@@ -1,3 +1,13 @@
+abis:
+  - GenesisProtocol
+  - Avatar
+  - ContributionReward
+  - Controller
+  - DAOToken
+  - GenericScheme
+  - Reputation
+  - SchemeRegistrar
+  - UGenericScheme
 entities:
   - Proposal
   - Vote

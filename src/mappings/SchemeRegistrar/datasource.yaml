@@ -1,11 +1,17 @@
 abis:
   - SchemeRegistrar
+  - Avatar
+  - ContributionReward
+  - Controller
+  - DAOToken
+  - GenericScheme
   - GenesisProtocol
+  - Reputation
+  - UGenericScheme
 entities:
   - SchemeRegistrarNewSchemeProposal
   - SchemeRegistrarRemoveSchemeProposal
   - SchemeRegistrarProposalExecuted
-
 eventHandlers:
   - event: NewSchemeProposal(indexed address,indexed bytes32,indexed address,address,bytes32,bytes4,string)
     handler: handleNewSchemeProposal

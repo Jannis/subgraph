@@ -1,5 +1,13 @@
 abis:
   - DAOToken
+  - Avatar
+  - ContributionReward
+  - Controller
+  - GenericScheme
+  - GenesisProtocol
+  - Reputation
+  - SchemeRegistrar
+  - UGenericScheme
 entities:
   - TokenHolder
   - TokenTransfer

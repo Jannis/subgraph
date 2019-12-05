@@ -1,6 +1,13 @@
 abis:
   - ContributionReward
+  - Avatar
+  - Controller
+  - DAOToken
+  - GenericScheme
   - GenesisProtocol
+  - Reputation
+  - SchemeRegistrar
+  - UGenericScheme
 entities:
   - ContributionRewardRedeemReputation
   - ContributionRewardRedeemNativeToken

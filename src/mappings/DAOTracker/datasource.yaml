@@ -1,5 +1,14 @@
 abis:
   - DAOTracker
+  - Avatar
+  - ContributionReward
+  - Controller
+  - DAOToken
+  - GenericScheme
+  - GenesisProtocol
+  - Reputation
+  - SchemeRegistrar
+  - UGenericScheme
 entities:
   - DAOTrackerContract
   - BlacklistedDAO

@@ -1,6 +1,13 @@
 abis:
   - UGenericScheme
+  - Avatar
+  - ContributionReward
+  - Controller
+  - DAOToken
+  - GenericScheme
   - GenesisProtocol
+  - Reputation
+  - SchemeRegistrar
 entities:
   - GenericSchemeProposal
 eventHandlers:
