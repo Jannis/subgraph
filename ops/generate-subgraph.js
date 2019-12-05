@@ -83,6 +83,12 @@ function combineFragments(fragments, isTemplate, addresses, missingAddresses) {
             file: `${__dirname}/../abis/${version}/GenericScheme.json`
           };
         }
+        if (contractName === "GenericScheme") {
+          return {
+            name: contractName,
+            file: `${__dirname}/../abis/0.0.1-rc.33/GenericScheme.json`
+          };
+        }
 
         return {
           name: contractName,

@@ -46,6 +46,12 @@ function daoYaml(contract, contractAddress, arcVersion) {
                   file: path.resolve(`./abis/${arcVersion}/GenericScheme.json`)
                 };
         }
+        if (contractName === "GenericScheme") {
+          return {
+            name: contractName,
+            file: `./abis/0.0.1-rc.33/GenericScheme.json`
+          };
+        }
         return {name: contractName,
                 file: path.resolve(`./abis/${arcVersion}/${contractName}.json`)
               };
